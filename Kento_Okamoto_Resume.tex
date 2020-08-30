@@ -3,6 +3,7 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{sourcesanspro}
+\usepackage{relsize}
 %\usepackage[margin=1in]{geometry}
 
 %Adjust Margins
@@ -13,7 +14,7 @@
 \addtolength{\textheight}{0.75in}
 
 \begin{document}
-
+\relscale{1.05} %Scaling
 \header{Kento Okamoto}
 {oka.keno@gmail.com}
 {2036 Colony St. Unit 2}
@@ -27,8 +28,9 @@
 \section{Experience}
 \datedsection{Software Engineer, Arista Networks}{July 2017 - Present}
 \begin{itemize}[noitemsep]
-    \item Led software support for five 720XP series PoE switch development by coordinating with\\ cross-functional teams (manufacturing, test, hardware)
-    \item Designed and implemented new CLI command displaying on-device FPGA information
+    \item Led software validation support for five 720XP series PoE switch development by coordinating with\\ cross-functional teams (manufacturing, test, hardware)
+    \item Wrote OS firmware for initial board bringup
+    \item Designed and wrote system software for displaying on-device FPGA information
     \item Created test infrastructure improvement for detecting product spontaneous reboots
 \end{itemize}
 
@@ -39,15 +41,13 @@
 \end{itemize}
 \datedsection{Automation Tools Developer Intern, Ricoh America}{May 2016 -- August 2016}
 \begin{itemize}[rightmargin=\dimexpr\linewidth-15cm-\leftmargin\relax,noitemsep]
-    \item Developed a brand new webtool for performance data analysis using ASP.NET MVC\\ from the ground up
+    \item Developed a full-stack web application for printer performance analysis using ASP.NET MVC
     \item Webtool provides 300\% more control for customer over previous tool
-    \item Changes to database are now automatically reflected on tool
+    \item Increased code resilience to future SQL database changes
 \end{itemize}
 \datedsection{Software Developer Intern, Gearzy }{May 2015 -- May 2016}
 \begin{itemize}[rightmargin=\dimexpr\linewidth-15cm-\leftmargin\relax,noitemsep]
-\item Created desktop programs for custom SQL-based C++ class creation using QtCreator
-\item Run SQLite queries to access and manipulate a given database
-\item Parse and manipulate strings of incoming data using regular expressions
+\item Created full-stack desktop application for custom SQL-based C++ object creation using QtCreator
 \end{itemize}
 
 \section{Projects}
@@ -60,7 +60,8 @@
 
 \datedsection{Pool Table Recognition}{April 2016 -- December 2016}
 \begin{itemize}[rightmargin=\dimexpr\linewidth-15cm-\leftmargin\relax,noitemsep]
-\item Created a program in OpenCV that will recognize a pool table and transform the table image to display a top-down perspective of the table using images provided by a smartphone
+    \item Built C++ program to detect pool tables from a smartphone image using OpenCV
+    \item Final image displays a top-down perspective of the table
 \end{itemize}
 % \datedsection{Association of Computing Machinery (ACM): MinesList}{September 2015 -- December 2016}
 % \begin{itemize}[noitemsep]
@@ -78,18 +79,17 @@
 \begin{itemize}[noitemsep]
 \item Technical: C++, C, Python, Shell, MatLab
 \item Tools: Git, Perforce, Docker, \LaTeX
-\item Familiar libraries: OpenCV, OpenGL, Coreboot, OpenMPI
+\item Libraries: OpenCV, OpenGL, Coreboot, OpenMPI
 \end{itemize}
-
-\textbf{Taken Courses Include}:
-Algorithms, Parallel Scientific Computing, Automata Theory, Human-Centered Robotics, Introduction to Cryptography, Operating Systems, Game Theory, Computer Vision
-
 
 \section{Education}
 \datedsection{Colorado School of Mines M.S.}{May 2017}
 \EducationGPA{Computer Science}{}
 \datedsection{Colorado School of Mines B.S.}{May 2015}
 \EducationGPA{Engineering Physics}{}
+
+\textbf{Taken Courses Include}:
+Algorithms, Parallel Scientific Computing, Automata Theory, Human-Centered Robotics, Introduction to Cryptography, Operating Systems, Game Theory, Computer Vision
 
 
 
