@@ -4,6 +4,7 @@
 \usepackage{hyperref}
 \usepackage{sourcesanspro}
 \usepackage{relsize}
+\usepackage{parskip}
 %\usepackage[margin=1in]{geometry}
 
 %Adjust Margins
@@ -12,6 +13,7 @@
 \addtolength{\textwidth}{1.0in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{0.75in}
+\setlength{\parskip}{2pt}
 
 \begin{document}
 \relscale{1.05} %Scaling
@@ -27,41 +29,51 @@
 \hfill % hacky way to add space
 \section{Experience}
 \datedsection{Backend Engineer, Lithic}{August 2021 - November 2022}
+\textbf{Uses:} C++, Python, Java, Rust, Docker, AWS
 \begin{itemize}[noitemsep]
     \item Migrated internal transaction definition to reflect future service integration
-    \item Designed and implemented internal tooling to allow other engineers to modify exising customer transaction configurations
-    \item Designed and implemented mock client service that will be utilized for end to end testing in a staging environment
-    \item Designed internal tooling to empower other engineers to execute system configuration changes safely
+    \item Designed and implemented internal tooling to allow other engineers to modify exising\\ customer transaction configurations
+    \item Designed and implemented mock transaction endpoint service using \textbf{FastAPI} for\\ end to end testing in a staging environment
+    \item Designed internal tooling with \textbf{Retool} to empower other engineers to execute\\ system configuration changes safely
 \end{itemize}
+
 
 \datedsection{Software Engineer, Splunk}{November 2020 - July 2021}
 \begin{itemize}[noitemsep]
     \item Designed solution to prevent dataloss observed on Splunk technical add-ons
 \end{itemize}
 
+
 \datedsection{Software Engineer, Arista Networks}{July 2017 - October 2020}
+\textbf{Uses:} C++(TACC), Python
 \begin{itemize}[noitemsep]
     \item Led software validation support for five 720XP series PoE switch development by coordinating with\\ cross-functional teams (manufacturing, test, hardware)
     \item Wrote OS firmware for initial board bringup
-    \item Designed and wrote system software for displaying on-device FPGA information
+    \item Designed and wrote system software for displaying on-device FPGA information using Python
     \item Created test infrastructure improvement for detecting product spontaneous reboots
 \end{itemize}
+
 
 \datedsection{Instructor, CSCI 261 Programming Concepts}{January 2017 - May 2017}
 \begin{itemize}[noitemsep]
     \item Taught introductory C++ concepts to 60 students
     \item Course included Lectures, Exams, Homework, and extra help during office hours.
 \end{itemize}
+
+
 \datedsection{Automation Tools Developer Intern, Ricoh America}{May 2016 -- August 2016}
 \begin{itemize}[rightmargin=\dimexpr\linewidth-15cm-\leftmargin\relax,noitemsep]
     \item Developed a full-stack web application for printer performance analysis using ASP.NET MVC
     \item Webtool provides 300\% more control for customer over previous tool
     \item Increased code resilience to future SQL database changes
 \end{itemize}
+
+
 \datedsection{Software Developer Intern, Gearzy }{May 2015 -- May 2016}
 \begin{itemize}[rightmargin=\dimexpr\linewidth-15cm-\leftmargin\relax,noitemsep]
 \item Created full-stack desktop application for custom SQL-based C++ object creation using QtCreator
 \end{itemize}
+
 
 \section{Projects}
 \datedsection{App Launch Inference}{August 2016 -- August 2017}
@@ -82,11 +94,11 @@
 % \item Currently using MetorJS to create database and run website
 % \end{itemize}
 
-\datedsection{Senior Design: Hybrid Organic-Inorganic Perovskites for Solar Cells}{Aug 2014 -- May 2015}
-\begin{itemize}[rightmargin=\dimexpr\linewidth-15cm-\leftmargin\relax,noitemsep]
-\item Carried out density function theory calculations for ground state properties using supercomputers
-\item Successfully calculated Perovskite structures using Lead Bromide based Formamidinium ions
-\end{itemize}
+%\datedsection{Senior Design: Hybrid Organic-Inorganic Perovskites for Solar Cells}{Aug 2014 -- May 2015}
+%\begin{itemize}[rightmargin=\dimexpr\linewidth-15cm-\leftmargin\relax,noitemsep]
+%\item Carried out density function theory calculations for ground state properties using supercomputers
+%\item Successfully calculated Perovskite structures using Lead Bromide based Formamidinium ions
+%\end{itemize}
 \section{Skills}
 
 \begin{itemize}[noitemsep]

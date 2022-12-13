@@ -37,7 +37,7 @@
 
 \titlespacing*{\subsection}
 {1pt}
-{0pt}{0pt}
+{4pt}{0pt}
 
 \titlespacing*{\subsubsection}
 {0pt}
