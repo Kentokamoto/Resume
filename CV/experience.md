@@ -1,10 +1,3 @@
-# [Kento Okamoto](https://www.linkedin.com/in/kentokamoto)
-[kentokamoto@proton.me](mailto:kentokamoto@proton.me)
-(530)-219-5435
-[https://www.github.com/kentokamoto](https://www.github.com/kentokamoto)
-Seattle, WA
-
-## Experience
 ### Lithic (Backend Engineer) (July 2021 - November 2022)
 #### Tech Stack: C++, Python, Rust, Java, Postgres
 * Migrated internal transaction definition to reflect future service integration
@@ -14,7 +7,6 @@ Seattle, WA
 * Analyze and triage customer issues using **Postgres**
 * Corrected fees getting double counted? What was it exactly 
   * Transaction reversals and fees had somethign funny going on
-
 
 ### Splunk (Software Engineer) (December 2020 - June 2021)
 #### Tech Stack: C++
@@ -36,21 +28,3 @@ Seattle, WA
 * Webtool provides 300\% more control for customer over previous tool
 * Increased code resilience to future SQL database changes
 
-## Projects
-### App Launch Inference (August 2016 - August 2017)
-#### Tech Stack: Python, Wireshark
-* Research security vulnerabilities by eavesdropping on app launch instances on Android devices
-* Utilized scikit-learn to train and infer app network packets on each device
-* Successfully inferred app launches with 90\% or higher accuracy using Random Forest and SVM classifiers
-
-### Pool Table Recognition (April 2016 - December 2016)
-* Built C++ program to detect pool tables from a smartphone image using OpenCV
-* Final image displayed a top-down perspective of the table
-
-
-## Education
-### Colorado School of Mines M.S. (May 2017)
-#### Computer Science
-
-### Colorado School of Mines M.S. (May 2015)
-#### Engineering Physics
