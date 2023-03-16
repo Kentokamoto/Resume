@@ -1,0 +1,7 @@
+---
+documentclass: article
+pagestyle: empty
+geometry: 
+- textwidth=7.5in
+- textheight=10in
+---
