@@ -40,6 +40,9 @@ ul{
   width: 650px;
 }
 
+a, a:visited, a:hover, a:active {
+color: inherit;
+}
 .level3{
   margin-bottom: 10px;
 }
