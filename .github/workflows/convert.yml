@@ -1,6 +1,9 @@
 name: Convert
 
-on: push
+on:
+  push:
+    paths: 
+      - 'src/**'
 
 jobs:
   convert_to_html:
