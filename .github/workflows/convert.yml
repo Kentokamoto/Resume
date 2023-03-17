@@ -1,4 +1,4 @@
-name: Advanced Usage
+name: Convert
 
 on: push
 
@@ -26,6 +26,7 @@ jobs:
             --template=src/template/resume.html
             --include-in-header=src/styles/styles.css
             --include-before-body=src/header.html
-            --output=CV/$FILE_NAME.html
+            --output=CV/Kento_Okamoto_Resume.html
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: cat CV/Kento_Okamoto_Resume.html
 
