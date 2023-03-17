@@ -38,11 +38,11 @@ ul{
   margin-top: 2px;
   margin-bottom: 2px;
   width: 650px;
-  text-decoration: none;
 }
 
 a, a:visited, a:hover, a:active {
-color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 .level3{
   margin-bottom: 10px;
