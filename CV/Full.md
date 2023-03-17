@@ -1,7 +1,9 @@
----
-title: Experience
----
-### Lithic (Backend Engineer) <span style="float: right"> (July 2021 - November 2022) </span>
+# [Kento Okamoto](https://www.linkedin.com/in/kentokamoto)
+|[kentokamoto@proton.me](mailto:kentokamoto@proton.me) | (530)-219-5435 | [https://www.github.com/kentokamoto](https://www.github.com/kentokamoto)|
+|:--------------------:|:--------------:|:---------------------------------:|
+<hr>
+
+### Lithic (Backend Engineer) <span style="float: right"> (July 2021 - November 2022) </span> {#Experience}
 #### Tech Stack: C++, Python, Rust, Java, Postgres
 * Migrated internal transaction definition to reflect future service integration
 * Designed and implemented internal tooling to allow other engineers to modify exising customer transaction configurations
@@ -31,3 +33,19 @@ title: Experience
 * Webtool provides 300\% more control for customer over previous tool
 * Increased code resilience to future SQL database changes
 
+### App Launch Inference <span style="float: right"> (August 2016 - August 2017) </span>
+#### Tech Stack: Python, Wireshark
+* Research security vulnerabilities by eavesdropping on app launch instances on Android devices
+* Utilized scikit-learn to train and infer app network packets on each device
+* Successfully inferred app launches with 90\% or higher accuracy using Random Forest and SVM classifiers
+
+### Pool Table Recognition <span style="float: right"> (April 2016 - December 2016) </span>
+* Built C++ program to detect pool tables from a smartphone image using OpenCV
+* Final image displayed a top-down perspective of the table
+
+
+### Colorado School of Mines M.S. <span style="float: right"> (May 2017)</span>
+#### Computer Science
+
+### Colorado School of Mines M.S. <span style="float: right"> (May 2015)</span>
+#### Engineering Physics
