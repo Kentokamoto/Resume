@@ -33,14 +33,7 @@ jobs:
             --include-in-header=src/styles/styles.css
             --include-before-body=src/header.html
             --output=CV/Kento_Okamoto_Resume.html
-      - uses: docker://pandoc/core:latest
-        with:
-          args: >-
-            CV/Kento_Okamoto_Resume.html 
-            --from=html
-            --to=pdf
-            --pdf-engine=wkhtmltopdf
-            --output=CV/Kento_Okamoto_Resume.pdf
+      - run: wkhtmltopdf CV/Kento_Okamoto_Resume.html CV/Kento_Okamoto_Resume.pdf
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - uses: actions/upload-artifact@v3
         with:
