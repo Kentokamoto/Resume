@@ -28,6 +28,7 @@ jobs:
             --include-in-header=src/styles/styles.css
             --include-before-body=src/header.html
             --output=CV/Kento_Okamoto_Resume.html
+      - run: cat CV/Kento_Okamoto_Resume.html
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: |
           git config user.name github-actions
