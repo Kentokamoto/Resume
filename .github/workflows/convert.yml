@@ -4,6 +4,7 @@ on:
   push:
     paths: 
       - 'src/**'
+      - '.github/workflows/convert.yml'
 
 jobs:
   convert_to_html:
@@ -31,9 +32,16 @@ jobs:
             --include-in-header=src/styles/styles.css
             --include-before-body=src/header.html
             --output=CV/Kento_Okamoto_Resume.html
-      - run: cat CV/Kento_Okamoto_Resume.html
+      - uses: docker://pandoc/core:latest
+        with:
+          args: >-
+            CV/Kento_Okamoto_Resume.html 
+            --from=html5
+            --to=pdf
+            --pdf-engine=wkhtmltopdf
+            --output=CV/Kento_Okamoto_Resume.pdf
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - uses: actions/upload-artifact@v3
         with:
-          name: Kento_Okamoto_Resume Html
-          path: CV/Kento_Okamoto_Resume.html
+          name: Kento_Okamoto_Resume
+          path: CV/Kento_Okamoto_Resume*
