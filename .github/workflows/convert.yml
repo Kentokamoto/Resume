@@ -23,9 +23,9 @@ jobs:
             --section-divs
             --from=markdown
             --to=html5
-            --template=${{github.workspace}}/src/template/resume.html
-            --include-in-header=${{github.workspace}}/src/styles/styles.css
-            --include-before-body=${{github.workspace}}/src/header.html
-            --output=${{ github.workspace }}/CV/${{env.FILENAME}}.html
+            --template=src/template/resume.html
+            --include-in-header=src/styles/styles.css
+            --include-before-body=src/header.html
+            --output=CV/${{env.FILENAME}}.html
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
