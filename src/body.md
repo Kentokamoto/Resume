@@ -5,9 +5,11 @@
 * Designed and implemented internal tooling to allow other engineers to modify exising customer transaction configurations
 * Designed and implemented mock transaction endpoint service using **FastAPI** for end to end testing in a staged AWS environment
 * Designed internal tooling with **Retool** to empower other engineers to execute system configuration changes safely
-* Analyze and triage customer issues using **Postgres**
-* Corrected fees getting double counted? What was it exactly 
-  * Transaction reversals and fees had somethign funny going on
+
+
+[comment]:* Analyze and triage customer issues using **Postgres**
+[comment]:* Corrected fees getting double counted? What was it exactly 
+[comment]:  * Transaction reversals and fees had somethign funny going on
 
 ### Splunk (Software Engineer) <span style="float: right">  December 2020 - June 2021</span>
 #### Tech Stack: C++
