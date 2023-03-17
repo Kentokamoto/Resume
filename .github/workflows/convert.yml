@@ -20,6 +20,7 @@ jobs:
       - uses: docker://pandoc/core:latest
         with:
           args: >-
+            src/body.md
             --section-divs
             --from=markdown
             --to=html5
