@@ -28,5 +28,10 @@ jobs:
             --include-before-body=src/header.html
             --output=CV/Kento_Okamoto_Resume.html
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: cat CV/Kento_Okamoto_Resume.html
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Generated Html"
+          git push
 
