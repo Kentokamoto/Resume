@@ -5,6 +5,8 @@ on: push
 jobs:
   convert_to_html:
     runs-on: ubuntu-latest
+    env:
+      FILE_NAME: Kento_Okamoto_Resume
     steps: 
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
@@ -16,5 +18,14 @@ jobs:
       - run: |
           ls ${{ github.workspace }}
       - uses: docker://pandoc/core:latest
-
+        with:
+          args: >-
+            --section-divs
+            --from=markdown
+            --to=html5
+            --template=${{github.workspace}}/src/template/resume.html
+            --include-in-header=${{github.workspace}}/src/styles/styles.css
+            --include-before-body=${{github.workspace}}/src/header.html
+            --output=${{ github.workspace }}/CV/${{env.FILENAME}}.html
+      - run: echo "🍏 This job's status is ${{ job.status }}."
 
