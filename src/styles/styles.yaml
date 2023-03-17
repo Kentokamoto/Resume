@@ -1,0 +1,13 @@
+documentclass: article
+papersize: letter
+pagestyle: empty
+geometry: 
+- top=1in
+- bottom=1in
+- left=1in
+- right=1in
+- textwidth=7.5in
+- textheight=10in
+linestretch: 1
+mainfont: Helvetica
+fontsize: 11pt
