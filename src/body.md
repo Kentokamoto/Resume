@@ -4,12 +4,8 @@
 * Migrated internal transaction definition to reflect future service integration
 * Designed and implemented internal tooling to allow other engineers to modify exising customer transaction configurations
 * Designed and implemented mock transaction endpoint service using **FastAPI** for end to end testing in a staged AWS environment
-* Designed internal tooling with **Retool** to empower other engineers to execute system configuration changes safely
-
-
-[comment]:* Analyze and triage customer issues using **Postgres**
-[comment]:* Corrected fees getting double counted? What was it exactly 
-[comment]:  * Transaction reversals and fees had somethign funny going on
+* Designed internal tooling with **Retool** to streamline workflows and empower cross-functional teams to safely execute system configuration changes
+* Leveraged **Postgres** to triage and resolve customer issues
 
 ### Splunk (Software Engineer) <span style="float: right">  December 2020 - June 2021</span>
 #### Tech Stack: C++
@@ -27,7 +23,7 @@
 * Course included Lectures, Exams, Homework, and extra help during office hours.
 
 ### Ricoh America (Automation Tools Developer Intern) <span style="float: right">May 2016 - August 2016</span>
-* Developed a full-stack web application for printer performance analysis using ASP.NET MVC
+* Developed a full-stack web application for printer performance analysis using ASP.NET
 * Webtool provides 300\% more control for customer over previous tool
 * Increased code resilience to future SQL database changes
 
@@ -39,9 +35,14 @@
 * Successfully inferred app launches with 90\% or higher accuracy using Random Forest and SVM classifiers
 
 ### Pool Table Recognition <span style="float: right">April 2016 - December 2016</span>
-* Built C++ program to detect pool tables from a smartphone image using OpenCV
+* Built C++ program to detect pool tables from a smartphone image using **OpenCV**
 * Final image displayed a top-down perspective of the table
 
+## Skills
+* Languages: Python, C++, Rust, Javascript
+* Frameworks: Flask, Express.js, FastAPI
+* Tools: Git, Docker, Jenkins
+* Database: SQLite, Postgres, Mongodb
 
 ## Education
 ### Colorado School of Mines M.S. <span style="float: right">May 2017</span>
