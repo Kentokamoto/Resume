@@ -2,6 +2,8 @@
 body {
   font-family: "Helvetica", "Source Sans Pro", "Lucida Grande", Calibri, Helvetica, sans-serif;
   margin: 30px;
+  display: flex;
+  justify-content: center;
 }
 .resume-body{
   max-width: 1000px;
